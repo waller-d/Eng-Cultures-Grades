@@ -9,7 +9,7 @@ students <- read_csv("Dropbox (MIDFIELD)/MIDFIELD data 16 March 2020/data files/
                      + col_types = cols(transfer_institution_code = col_character()))
 degrees <- read_csv("Dropbox (MIDFIELD)/MIDFIELD data 16 March 2020/data files/CSV (utf-8 Unicode) files/degree_2020_03_16_fix5.csv", 
                     + col_types = cols(term_degree = col_character()))
-course_2020_03_16_fix5 <- read_csv("Dropbox (MIDFIELD)/MIDFIELD data 16 March 2020/data files/CSV (utf-8 Unicode) files/course_2020_03_16_fix5.csv", 
+courses <- read_csv("Dropbox (MIDFIELD)/MIDFIELD data 16 March 2020/data files/CSV (utf-8 Unicode) files/course_2020_03_16_fix5.csv", 
                                    + col_types = cols(number = col_character(), 
                                    + term_course = col_character()))
 
